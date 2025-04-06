@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Harsha Immersio Tech Enterprises</title>
+
+  <!-- Google Font: Libre Franklin -->
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet"/>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Libre Franklin', sans-serif;
+    }
+
+    body, html {
+      height: 100%;
+      overflow: hidden;
+    }
+
+    /* Hazy 4K Background Video */
+    .video-bg {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+      filter: brightness(0.4) blur(3px);
+    }
+
+    .content {
+      position: relative;
+      z-index: 2;
+      padding: 4rem;
+      background: linear-gradient(to right, rgba(0, 0, 60, 0.6), rgba(0, 0, 30, 0.6));
+      color: #e0f7ff;
+      height: 100%;
+      overflow-y: auto;
+    }
+
+    h1 {
+      font-size: 3.5rem;
+      color: #00ffff; /* Electric blue */
+      text-shadow: 0 0 10px #00ffff;
+    }
+
+    .tagline {
+      font-style: italic;
+      color: #b0e0ff;
+      font-size: 1.3rem;
+      margin-bottom: 1.5rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      color: #d0e8ff;
+    }
+
+    nav {
+      margin: 2rem 0;
+    }
+
+    nav a {
+      display: inline-block;
+      margin: 0.5rem;
+      padding: 0.6rem 1.2rem;
+      border-radius: 12px;
+      background: linear-gradient(45deg, #FFA500, #ff6a00); /* Metallic orange look */
+      color: #000;
+      font-weight: 600;
+      text-decoration: none;
+      box-shadow: 0 0 10px rgba(255, 165, 0, 0.7);
+      transition: all 0.3s ease;
+    }
+
+    nav a:hover {
+      background: linear-gradient(45deg, #ff6a00, #FFA500);
+      box-shadow: 0 0 15px rgba(255, 165, 0, 1);
+      transform: scale(1.05);
+    }
+
+    .contact {
+      margin-top: 3rem;
+      font-size: 1rem;
+    }
+
+    .contact h2 {
+      color: #FFA500;
+      text-shadow: 0 0 8px #FFA500;
+      margin-bottom: 1rem;
+    }
+
+    .contact span {
+      display: block;
+      margin: 0.3rem 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Luxury Ship Background Video -->
+  <video autoplay muted loop playsinline class="video-bg">
+    <source src="assets/luxury-liner.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- Site Content -->
+  <div class="content">
+    <h1>Harsha Immersio Tech Enterprises</h1>
+    <p class="tagline">Changing the way the world sails — one city at a time.</p>
+    <p>
+      Welcome to the future of <em>Ship Taxi Services</em>. Whether you're navigating the Irish seas 
+      or enjoying a ride from Marina to Mahabalipuram, Harsha’s fleet ensures speed, luxury, and sustainability.
+    </p>
+
+    <nav>
+      <a href="chennai.html">Chennai</a>
+      <a href="irish-seas.html">Irish Seas</a>
+      <a href="newyork.html">New York</a>
+      <a href="europe.html">Europe</a>
+      <a href="australia.html">Australia</a>
+      <a href="newzealand.html">New Zealand</a>
+      <a href="africa.html">Africa</a>
+      <a href="south-america.html">South America</a>
+      <a href="north-america.html">North America</a>
+    </nav>
+
+    <div class="contact">
+      <h2>Contact Us</h2>
+      <span>📞 Phone: +91-9840051531</span>
+      <span>📱 WhatsApp: +353896154450</span>
+      <span>📧 Email: harshabusiness410@gmail.com</span>
+    </div>
+  </div>
+
+</body>
+</html>

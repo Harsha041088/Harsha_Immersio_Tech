@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Australia - Harsha Immersio Tech Enterprises</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: black;
+      color: white;
+    }
+
+    video#bg-video {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+      z-index: -1;
+    }
+
+    .overlay {
+      background: rgba(0, 0, 0, 0.65);
+      padding: 2rem;
+      min-height: 100vh;
+    }
+
+    h1, h2 {
+      text-align: center;
+      color: #FFA500;
+    }
+
+    table {
+      width: 95%;
+      margin: 2rem auto;
+      border-collapse: collapse;
+      background-color: rgba(255, 255, 255, 0.05);
+    }
+
+    th, td {
+      border: 1px solid #ffffff33;
+      padding: 12px 15px;
+      text-align: center;
+      color: white;
+    }
+
+    th {
+      background-color: #FFA500;
+      color: black;
+    }
+
+    tr:nth-child(even) {
+      background-color: rgba(255,255,255,0.1);
+    }
+
+    a {
+      color: #00ffff;
+      text-decoration: none;
+      display: block;
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      table {
+        font-size: 0.85rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <video autoplay muted loop id="bg-video">
+    <source src="assets/australia/australia-background.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <div class="overlay">
+    <h1>Harsha Immersio Tech Enterprises</h1>
+    <h2>Ship Taxi Comparison - Coastal Australia (Intra & Inter-City)</h2>
+
+    <table>
+      <tr>
+        <th>Route</th>
+        <th>Distance (km)</th>
+        <th>Time (Road)</th>
+        <th>Cost (Road)</th>
+        <th>Efficiency (Road)</th>
+        <th>Time (Ship Taxi)</th>
+        <th>Cost (Ship Taxi)</th>
+        <th>Efficiency (Ship Taxi)</th>
+      </tr>
+
+      <!-- Sydney -->
+      <tr>
+        <td>Sydney Harbour (Intra-city)</td>
+        <td>14</td>
+        <td>45 mins (road & traffic)</td>
+        <td>AUD 12</td>
+        <td>Low</td>
+        <td>20 mins</td>
+        <td>AUD 6</td>
+        <td>Very High</td>
+      </tr>
+
+      <!-- Brisbane -->
+      <tr>
+        <td>Brisbane River Loop (Intra-city)</td>
+        <td>12</td>
+        <td>35 mins</td>
+        <td>AUD 10</td>
+        <td>Medium</td>
+        <td>18 mins</td>
+        <td>AUD 5</td>
+        <td>High</td>
+      </tr>
+
+      <!-- Melbourne -->
+      <tr>
+        <td>Melbourne Docklands → St Kilda (Intra-city)</td>
+        <td>10</td>
+        <td>30 mins</td>
+        <td>AUD 8</td>
+        <td>Medium</td>
+        <td>15 mins</td>
+        <td>AUD 4</td>
+        <td>High</td>
+      </tr>
+
+      <!-- Intercity -->
+      <tr>
+        <td>Sydney → Newcastle (Inter-city)</td>
+        <td>160</td>
+        <td>2.5 hrs</td>
+        <td>AUD 35</td>
+        <td>Moderate</td>
+        <td>1.5 hrs (coast)</td>
+        <td>AUD 20</td>
+        <td>High</td>
+      </tr>
+
+      <tr>
+        <td>Brisbane → Gold Coast</td>
+        <td>90</td>
+        <td>1.5 hrs</td>
+        <td>AUD 25</td>
+        <td>Medium</td>
+        <td>1 hr</td>
+        <td>AUD 15</td>
+        <td>High</td>
+      </tr>
+
+      <tr>
+        <td>Fremantle → Perth (Western Australia)</td>
+        <td>20</td>
+        <td>40 mins</td>
+        <td>AUD 12</td>
+        <td>Low</td>
+        <td>20 mins (Swan River)</td>
+        <td>AUD 6</td>
+        <td>Very High</td>
+      </tr>
+
+    </table>
+
+    <a href="index.html">← Back to Home</a>
+  </div>
+</body>
+</html>

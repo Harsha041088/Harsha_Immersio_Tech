@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chennai Coastal Route</title>
+  <style>
+    /* Background Video Styling */
+    #bgVideo {
+      position: fixed;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      min-height: 100%;
+      z-index: -1;
+      object-fit: cover;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      color: white;
+      overflow-x: hidden;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 3rem;
+      color: orange;
+      font-weight: bold;
+      text-shadow: 1px 1px 8px black;
+      margin-top: 40px;
+    }
+
+    .route-block {
+      width: 80%;
+      margin: 40px auto;
+      background-color: rgba(0, 0, 0, 0.75);
+      border: 2px solid orange;
+      border-radius: 15px;
+      padding: 20px;
+      transition: all 0.4s ease;
+    }
+
+    .route-block:hover {
+      background-color: rgba(0, 0, 0, 0.4);
+      box-shadow: 0 0 20px orange;
+    }
+
+    .route-title {
+      font-size: 1.6rem;
+      font-weight: bold;
+      margin-bottom: 20px;
+      text-align: center;
+      color: orange;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 1rem;
+      color: white;
+    }
+
+    th, td {
+      padding: 12px;
+      text-align: center;
+    }
+
+    th {
+      border-bottom: 2px solid orange;
+    }
+
+    td {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Background Video -->
+  <video autoplay muted loop playsinline id="bgVideo">
+    <source src="assets/chennai/Chennai.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- Heading -->
+  <h1>Chennai Coastal Route Efficiency</h1>
+
+  <!-- Route Sections -->
+  <div class="route-block">
+    <div class="route-title">Marina to Elliots Beach</div>
+    <table>
+      <tr>
+        <th>Mode</th>
+        <th>Time</th>
+        <th>Cost</th>
+        <th>CO₂ Savings</th>
+        <th>Efficiency</th>
+      </tr>
+      <tr>
+        <td>Road</td>
+        <td>25 mins</td>
+        <td>₹60</td>
+        <td>0%</td>
+        <td>Standard</td>
+      </tr>
+      <tr>
+        <td>Sea</td>
+        <td>15 mins</td>
+        <td>₹40</td>
+        <td>40%</td>
+        <td>High</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="route-block">
+    <div class="route-title">Elliots to Thiruvanmiyur Beach</div>
+    <table>
+      <tr>
+        <th>Mode</th>
+        <th>Time</th>
+        <th>Cost</th>
+        <th>CO₂ Savings</th>
+        <th>Efficiency</th>
+      </tr>
+      <tr>
+        <td>Road</td>
+        <td>20 mins</td>
+        <td>₹50</td>
+        <td>0%</td>
+        <td>Standard</td>
+      </tr>
+      <tr>
+        <td>Sea</td>
+        <td>10 mins</td>
+        <td>₹30</td>
+        <td>45%</td>
+        <td>High</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="route-block">
+    <div class="route-title">Thiruvanmiyur to Blue Beach</div>
+    <table>
+      <tr>
+        <th>Mode</th>
+        <th>Time</th>
+        <th>Cost</th>
+        <th>CO₂ Savings</th>
+        <th>Efficiency</th>
+      </tr>
+      <tr>
+        <td>Road</td>
+        <td>30 mins</td>
+        <td>₹70</td>
+        <td>0%</td>
+        <td>Moderate</td>
+      </tr>
+      <tr>
+        <td>Sea</td>
+        <td>18 mins</td>
+        <td>₹45</td>
+        <td>35%</td>
+        <td>High</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="route-block">
+    <div class="route-title">Blue Beach to Kovalam</div>
+    <table>
+      <tr>
+        <th>Mode</th>
+        <th>Time</th>
+        <th>Cost</th>
+        <th>CO₂ Savings</th>
+        <th>Efficiency</th>
+      </tr>
+      <tr>
+        <td>Road</td>
+        <td>35 mins</td>
+        <td>₹90</td>
+        <td>0%</td>
+        <td>Standard</td>
+      </tr>
+      <tr>
+        <td>Sea</td>
+        <td>20 mins</td>
+        <td>₹55</td>
+        <td>50%</td>
+        <td>Very High</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="route-block">
+    <div class="route-title">Kovalam to Mahabalipuram</div>
+    <table>
+      <tr>
+        <th>Mode</th>
+        <th>Time</th>
+        <th>Cost</th>
+        <th>CO₂ Savings</th>
+        <th>Efficiency</th>
+      </tr>
+      <tr>
+        <td>Road</td>
+        <td>45 mins</td>
+        <td>₹120</td>
+        <td>0%</td>
+        <td>Standard</td>
+      </tr>
+      <tr>
+        <td>Sea</td>
+        <td>25 mins</td>
+        <td>₹70</td>
+        <td>55%</td>
+        <td>Very High</td>
+      </tr>
+    </table>
+  </div>
+
+</body>
+</html>

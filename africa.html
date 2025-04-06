@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Africa - Harsha Immersio Tech Enterprises</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: black;
+      color: white;
+    }
+
+    video#bg-video {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+      z-index: -1;
+    }
+
+    .overlay {
+      background: rgba(0, 0, 0, 0.65);
+      padding: 2rem;
+      min-height: 100vh;
+    }
+
+    h1, h2 {
+      text-align: center;
+      color: #00FFAA;
+    }
+
+    .table-container {
+      width: 95%;
+      margin: 2rem auto;
+      overflow-x: auto;
+      backdrop-filter: blur(8px);
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 10px;
+      padding: 1rem;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: transparent;
+    }
+
+    th, td {
+      padding: 15px;
+      text-align: center;
+      color: white;
+      border-bottom: 1px solid rgba(255,255,255,0.2);
+    }
+
+    th {
+      background-color: rgba(0, 255, 170, 0.9);
+      color: black;
+      border-radius: 5px 5px 0 0;
+    }
+
+    tr:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    a {
+      color: #00ffff;
+      text-decoration: none;
+      display: block;
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      table {
+        font-size: 0.85rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <video autoplay muted loop id="bg-video">
+    <source src="assets/africa/africa-coast.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <div class="overlay">
+    <h1>Harsha Immersio Tech Enterprises</h1>
+    <h2>Ship Taxi Comparison - Coastal Africa (Intra & Inter-City)</h2>
+
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Route</th>
+            <th>Distance (km)</th>
+            <th>Time (Road)</th>
+            <th>Cost (Road)</th>
+            <th>Efficiency (Road)</th>
+            <th>Time (Ship Taxi)</th>
+            <th>Cost (Ship Taxi)</th>
+            <th>Efficiency (Ship Taxi)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Cape Town -->
+          <tr>
+            <td>Cape Town Waterfront → Hout Bay (Intra-city)</td>
+            <td>20</td>
+            <td>45 mins</td>
+            <td>ZAR 50</td>
+            <td>Low</td>
+            <td>18 mins</td>
+            <td>ZAR 25</td>
+            <td>Very High</td>
+          </tr>
+
+          <!-- Lagos -->
+          <tr>
+            <td>Lagos Marina → Lekki (Intra-city)</td>
+            <td>25</td>
+            <td>1 hr 10 mins</td>
+            <td>₦1500</td>
+            <td>Very Low</td>
+            <td>20 mins</td>
+            <td>₦700</td>
+            <td>Very High</td>
+          </tr>
+
+          <!-- Mombasa -->
+          <tr>
+            <td>Mombasa Old Port → Nyali (Intra-city)</td>
+            <td>10</td>
+            <td>30 mins</td>
+            <td>KES 200</td>
+            <td>Medium</td>
+            <td>12 mins</td>
+            <td>KES 100</td>
+            <td>High</td>
+          </tr>
+
+          <!-- Inter-city -->
+          <tr>
+            <td>Dar es Salaam → Mombasa (Inter-city)</td>
+            <td>510</td>
+            <td>9 hrs (road)</td>
+            <td>KES 3500</td>
+            <td>Low</td>
+            <td>5 hrs (coast)</td>
+            <td>KES 2200</td>
+            <td>High</td>
+          </tr>
+
+          <tr>
+            <td>Cape Town → Port Elizabeth (Inter-city)</td>
+            <td>750</td>
+            <td>9 hrs 30 mins</td>
+            <td>ZAR 600</td>
+            <td>Moderate</td>
+            <td>6 hrs (coastal)</td>
+            <td>ZAR 400</td>
+            <td>High</td>
+          </tr>
+
+          <tr>
+            <td>Lagos → Port Harcourt (Inter-city)</td>
+            <td>615</td>
+            <td>11 hrs</td>
+            <td>₦7000</td>
+            <td>Low</td>
+            <td>6 hrs</td>
+            <td>₦4000</td>
+            <td>High</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <a href="index.html">← Back to Home</a>
+  </div>
+</body>
+</html>
