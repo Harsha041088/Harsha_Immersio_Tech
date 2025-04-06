@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Europe Waterway Routes - Harsha Immersio Tech Enterprises</title>
+  <title>Europe Detailed - Harsha Immersio Tech Enterprises</title>
   <style>
     body {
       margin: 0;
@@ -11,6 +11,7 @@
       background: black;
       color: white;
     }
+
     video#bg-video {
       position: fixed;
       top: 0;
@@ -20,34 +21,41 @@
       object-fit: cover;
       z-index: -1;
     }
+
     .overlay {
       background: rgba(0, 0, 0, 0.7);
       padding: 2rem;
       min-height: 100vh;
     }
+
     h1, h2 {
       text-align: center;
       color: #FFA500;
     }
+
     table {
       width: 95%;
       margin: 2rem auto;
       border-collapse: collapse;
       background-color: rgba(255, 255, 255, 0.05);
     }
+
     th, td {
       border: 1px solid #ffffff33;
       padding: 12px 15px;
       text-align: center;
       color: white;
     }
+
     th {
       background-color: #FFA500;
       color: black;
     }
+
     tr:nth-child(even) {
       background-color: rgba(255,255,255,0.1);
     }
+
     a {
       color: #00ffff;
       text-decoration: none;
@@ -55,9 +63,11 @@
       text-align: center;
       margin-top: 2rem;
     }
+
     a:hover {
       text-decoration: underline;
     }
+
     @media (max-width: 768px) {
       table {
         font-size: 0.85rem;
@@ -73,11 +83,10 @@
 
   <div class="overlay">
     <h1>Harsha Immersio Tech Enterprises</h1>
-    <h2>Comprehensive Waterway Efficiency in Europe</h2>
+    <h2>Detailed Waterway Efficiency in Europe</h2>
 
     <table>
       <tr>
-        <th>Region</th>
         <th>Type</th>
         <th>Route</th>
         <th>Distance (km)</th>
@@ -89,105 +98,120 @@
         <th>Efficiency Rating</th>
       </tr>
 
-      <!-- Scandinavia -->
+      <!-- Intra-city -->
       <tr>
-        <td rowspan="2">Scandinavia</td>
-        <td>Inter-country</td>
-        <td>Stockholm (Sweden) → Helsinki (Finland)</td>
-        <td>400</td>
-        <td>8 hrs (including ferry)</td>
-        <td>€70</td>
-        <td>6 hrs</td>
-        <td>€50</td>
-        <td>~30% saved</td>
+        <td>Intra-city</td>
+        <td>Venice Canal</td>
+        <td>10</td>
+        <td>45 mins</td>
+        <td>€15</td>
+        <td>20 mins</td>
+        <td>€7</td>
+        <td>~80% saved</td>
+        <td>Very High</td>
+      </tr>
+
+      <tr>
+        <td>Intra-city</td>
+        <td>Paris Seine River</td>
+        <td>15</td>
+        <td>1 hr (traffic)</td>
+        <td>€20</td>
+        <td>30 mins</td>
+        <td>€10</td>
+        <td>~60% saved</td>
         <td>High</td>
       </tr>
+
       <tr>
-        <td>Inter-country</td>
-        <td>Oslo (Norway) → Copenhagen (Denmark)</td>
-        <td>600</td>
-        <td>9 hrs</td>
-        <td>€90</td>
-        <td>7 hrs</td>
-        <td>€65</td>
+        <td>Intra-city</td>
+        <td>Amsterdam Canal</td>
+        <td>8</td>
+        <td>30 mins</td>
+        <td>€10</td>
+        <td>15 mins</td>
+        <td>€5</td>
+        <td>~70% saved</td>
+        <td>High</td>
+      </tr>
+
+      <!-- Inter-city -->
+      <tr>
+        <td>Inter-city</td>
+        <td>Nice → Marseille (France)</td>
+        <td>200</td>
+        <td>3 hrs</td>
+        <td>€50</td>
+        <td>2 hrs</td>
+        <td>€25</td>
+        <td>~40% saved</td>
+        <td>High</td>
+      </tr>
+
+      <tr>
+        <td>Inter-city</td>
+        <td>Venice → Trieste (Italy)</td>
+        <td>160</td>
+        <td>2.5 hrs</td>
+        <td>€40</td>
+        <td>1.75 hrs</td>
+        <td>€22</td>
         <td>~35% saved</td>
         <td>High</td>
       </tr>
 
-      <!-- Baltic Region -->
+      <!-- Intra-country -->
       <tr>
-        <td rowspan="2">Baltic Region</td>
-        <td>Inter-country</td>
-        <td>Riga (Latvia) → Stockholm (Sweden)</td>
-        <td>450</td>
-        <td>10 hrs</td>
-        <td>€80</td>
-        <td>7.5 hrs</td>
-        <td>€60</td>
-        <td>~25% saved</td>
-        <td>Moderate</td>
-      </tr>
-      <tr>
-        <td>Inter-country</td>
-        <td>Tallinn (Estonia) → Helsinki (Finland)</td>
-        <td>80</td>
-        <td>2 hrs (including ferry)</td>
-        <td>€30</td>
+        <td>Intra-country</td>
+        <td>Hamburg → Kiel (Germany)</td>
+        <td>90</td>
         <td>1.5 hrs</td>
-        <td>€20</td>
-        <td>~20% saved</td>
-        <td>Moderate</td>
-      </tr>
-
-      <!-- Monaco -->
-      <tr>
-        <td>Monaco</td>
-        <td>Intra-city</td>
-        <td>Monte Carlo Harbor Circuit</td>
-        <td>5</td>
-        <td>20 mins</td>
-        <td>€25</td>
-        <td>15 mins</td>
-        <td>€18</td>
-        <td>~30% saved</td>
-        <td>Moderate</td>
-      </tr>
-
-      <!-- France -->
-      <tr>
-        <td rowspan="2">France</td>
-        <td>Inter-city</td>
-        <td>Marseille → Nice</td>
-        <td>200</td>
-        <td>3 hrs</td>
-        <td>€50</td>
-        <td>2.5 hrs</td>
-        <td>€40</td>
-        <td>~20% saved</td>
-        <td>Moderate</td>
-      </tr>
-      <tr>
-        <td>Inter-country</td>
-        <td>Calais → Dover (UK)</td>
-        <td>40</td>
-        <td>1.5 hrs (including ferry)</td>
         <td>€30</td>
         <td>1 hr</td>
-        <td>€25</td>
-        <td>~15% saved</td>
-        <td>Moderate</td>
+        <td>€12</td>
+        <td>~45% saved</td>
+        <td>High</td>
       </tr>
 
-      <!-- Netherlands -->
       <tr>
-        <td>Netherlands</td>
-        <td>Intra-city</td>
-        <td>Amsterdam Canal Circuit</td>
-        <td>15</td>
-        <td>1 hr</td>
-        <td>€20</td>
-        <td>45 mins</td>
-        <td>€15</td>
+        <td>Intra-country</td>
+        <td>Barcelona → Valencia (Spain)</td>
+        <td>350</td>
+        <td>4 hrs</td>
+        <td>€60</td>
+        <td>3 hrs</td>
+        <td>€30</td>
+        <td>~30% saved</td>
+        <td>High</td>
+      </tr>
 
-::contentReference[oaicite:0]{index=0}
- 
+      <!-- Inter-country -->
+      <tr>
+        <td>Inter-country</td>
+        <td>Barcelona (Spain) → Marseille (France)</td>
+        <td>500</td>
+        <td>6 hrs</td>
+        <td>€70</td>
+        <td>4.5 hrs</td>
+        <td>€35</td>
+        <td>~50% saved</td>
+        <td>Very High</td>
+      </tr>
+
+      <tr>
+        <td>Inter-country</td>
+        <td>Rotterdam (NL) → Hamburg (Germany)</td>
+        <td>460</td>
+        <td>5 hrs</td>
+        <td>€65</td>
+        <td>3.5 hrs</td>
+        <td>€28</td>
+        <td>~50% saved</td>
+        <td>High</td>
+      </tr>
+    </table>
+
+    <a href="index.html">← Back to Home</a>
+  </div>
+</body>
+</html>
